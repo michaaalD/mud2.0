@@ -1,0 +1,32 @@
+clear all;
+close all;
+clc;
+
+Vp = 30;
+Cpp = 1000;
+dp = 1.2;
+
+Cpw = 4175;
+dw = 960;
+Vg = 0.1;
+
+Cvw = Cpp * dp * Vp;
+Cvg = Cpw * dw * Vg;
+
+TzewN = -20;
+TwewN = 20;
+TgzN = 90;
+TgpN = 70;
+!fmg = pw * fg;
+
+qgN = 5;
+qtN = 0;
+
+Tzew0 = 10;
+Tgz0 = 15;
+dT = 0;
+
+Kcg = qgN/(TgpN - TwewN);
+Kcw = qgN/(TwewN - TzewN);
+
+fmg = 0;
